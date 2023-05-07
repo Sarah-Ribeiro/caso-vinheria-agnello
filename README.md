@@ -27,10 +27,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Desenvolvimento de um portal de e-commerce para a Vinheria Agnello, a fim de minimizar o impacto da pandemia nos negócios da vinícola e permitir que os clientes comprem seus vinhos online de forma segura e intuitiva.
 
-<img src="./git-img/Home.jpg" />
-<img src="./git-img/Vinhos.jpg" />
-<img src="./git-img/Sobre%20n%C3%B3s.jpg">
-<img src="./git-img/Especifica%C3%A7%C3%A3o%20do%20vinho.jpg">
+<img src="./image/site-images/Home.jpg" />
+<img src="./image/site-images/Vinhos.jpg" />
+<img src="./image/site-images/Sobre%20n%C3%B3s.jpg">
+<img src="./image/site-images/Especifica%C3%A7%C3%A3o%20do%20vinho.jpg">
 
 ## 🔖 Layout
 
