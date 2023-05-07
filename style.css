@@ -1,0 +1,515 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Header Universal */
+
+.header {
+  background-color: #808080;
+  width: 100%;
+  height: 60px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+  padding-top: 15px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0.02em;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #000;
+}
+
+.navigation a:hover {
+  font-weight: 900;
+}
+
+/* Sobre nós */
+
+.content-about {
+  margin: 60px 130px 80px 130px;
+}
+
+.content-about p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.title-about {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  margin-top: 32px;
+}
+
+.sub-title-about {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  margin-top: 8px;
+}
+
+/* Index */
+
+.main-index {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-index {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+
+  letter-spacing: 0.02em;
+
+  display: flex;
+  justify-content: center;
+  margin-bottom: 48px;
+  margin-top: 16px;
+}
+
+/* Vinhos Populares */
+
+.vinhos-populares {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  gap: 136px;
+}
+
+.container-index {
+  width: 176px;
+  height: 420px;
+  background-color: #d1d1d1;
+  border-radius: 10px;
+}
+
+/* Vinhos */
+
+.vinho img {
+  width: 230px;
+  height: 270px;
+}
+
+.vinho {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  margin-top: 5px;
+}
+
+.vinho a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 10px;
+
+  width: 108px;
+  height: 37px;
+
+  background: #4659ff;
+  border-radius: 10px;
+
+  text-decoration: none;
+  color: #fff;
+
+  margin-bottom: 5px;
+}
+
+.vinho p {
+  margin-top: 5px;
+
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.vinho span {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.vinho span strong {
+  font-weight: 500;
+}
+
+.content-vinho {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 15px;
+}
+
+/* Line divider */
+
+.line-divider-index {
+  width: 1008px;
+  border: 1px solid #c7c7c7;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  left: 216px;
+  top: 639px;
+
+  margin-top: 16px;
+  opacity: 0.5;
+}
+
+/* Cadastro de Newsletter */
+
+.title-cadastro {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+
+  margin-top: 32px;
+  margin-bottom: 48px;
+}
+
+#cadastro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#cadastro p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+
+  display: flex;
+  justify-content: left;
+  text-align: left;
+}
+
+.nome,
+.telefone,
+.email {
+  margin-bottom: 8px;
+}
+
+.email,
+.telefone {
+  margin-top: 8px;
+}
+
+#cadastro input {
+  padding: 11px 7px;
+  gap: 10px;
+
+  background: #d9d9d9;
+  border-radius: 10px;
+
+  border: none;
+
+  padding-left: 15px;
+
+  width: 280px;
+
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.3));
+}
+
+#cadastro input:focus {
+  outline: none;
+}
+
+.send {
+  padding: 24px 48px;
+
+  background: #4659ff;
+  border-radius: 15px;
+
+  color: #fff;
+
+  margin-top: 32px;
+
+  text-decoration: none;
+
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.3));
+}
+
+.send:hover {
+  background: #4956c9;
+}
+
+/* Vinhos */
+
+.estante {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 32px;
+
+  gap: 50px;
+}
+
+.linha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coluna {
+  width: 280px;
+  height: 280px;
+  border-radius: 10px;
+  background-color: #d9d9d9;
+
+  margin-right: 50px;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  padding: 29px 25px 0 0;
+}
+
+.coluna img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 24px;
+}
+
+.description p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+
+  text-align: center;
+
+  color: #000;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70px;
+
+  gap: 48px;
+}
+
+.price p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.price strong {
+  font-weight: 500;
+}
+
+.buy {
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+
+  background: #4659ff;
+  border-radius: 10px;
+
+  text-align: center;
+
+  font-size: 20px;
+}
+
+.buy:hover {
+  background: #586bf9;
+}
+
+/* Specification */
+
+.main-specification {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wine-spec {
+  margin: auto auto 12px;
+  height: 770px;
+}
+
+.specification {
+  background-color: #8a00cb;
+
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 53px auto auto;
+
+  width: 1714.5px;
+  height: 150px;
+}
+
+.spec-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  margin: -192px 0 0 -1535px;
+
+  position: absolute;
+  letter-spacing: 0.02em;
+}
+
+/* Purple Box */
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-top: 40px;
+  margin: auto;
+}
+
+.wine-description {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #fff;
+}
+
+.description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #fff;
+}
+
+/* Description Specification */
+
+.description-spec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: auto 20% auto auto;
+
+  gap: 80px;
+}
+
+.title-wine-spec h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.description-specification {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.price-spec {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.price-spec strong {
+  font-weight: 700;
+}
+
+.buy-wine {
+  width: 50%;
+  padding: 24px 16px;
+
+  background: #4659ff;
+  border-radius: 10px;
+}
+
+.buy-wine:hover {
+  background: #586bf9;
+}
+
+.description-spec a {
+  color: #fff;
+
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
