@@ -1,5 +1,7 @@
 # Caso Vinheria Agnello
 
+<img src="./image/site-images/Capa.jpg" />
+
 ## Descrição
 
 O Caso Vinheria Agnello é um projeto que busca ajudar uma vinícola brasileira a se adaptar aos tempos de pandemia, oferecendo uma solução de e-commerce que preserve a essência da empresa e proporcione uma experiência de compra agradável e intuitiva para seus clientes. Com uma gestão tradicional, a Vinheria Agnello resistiu por muito tempo à ideia de entrar no mundo do comércio eletrônico, mas agora está disposta a investir em um portal de vendas online para minimizar o impacto negativo da pandemia em seus negócios.
@@ -26,8 +28,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 Desenvolvimento de um portal de e-commerce para a Vinheria Agnello, a fim de minimizar o impacto da pandemia nos negócios da vinícola e permitir que os clientes comprem seus vinhos online de forma segura e intuitiva.
-
-<img src="./image/site-images/capa.jpg" />
 
 ## 🔖 Layout
 
