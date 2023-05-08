@@ -41,7 +41,7 @@ To run this code in your machines follow the steps below:
 
 - Then go to the folder: cd caso-vinheria-agnello
 
-- Run the live server in the index.htmt
+- Run the live server in the index.html
 
 - HAVE FUN!
 
