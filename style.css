@@ -1,3 +1,5 @@
+/* Elementos universais para todas as páginas */
+
 * {
   padding: 0;
   margin: 0;
@@ -12,7 +14,7 @@ body {
   justify-content: center;
 }
 
-/* Header Universal */
+/* Header padrão para todas as páginas */
 
 .header {
   background-color: #808080;
@@ -38,6 +40,8 @@ body {
   text-decoration: none;
   color: #000;
 }
+
+/* Hover para o menu do navegador */
 
 .navigation a:hover {
   font-weight: 900;
@@ -99,9 +103,9 @@ body {
   margin-top: 16px;
 }
 
-/* Vinhos Populares */
+/* Aba de Vinhos Populares da página de index */
 
-.vinhos-populares {
+.populars-wines {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -119,12 +123,12 @@ body {
 
 /* Vinhos */
 
-.vinho img {
+.wine img {
   width: 230px;
   height: 270px;
 }
 
-.vinho {
+.wine {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -133,7 +137,7 @@ body {
   margin-top: 5px;
 }
 
-.vinho a {
+.wine a {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -153,7 +157,7 @@ body {
   margin-bottom: 5px;
 }
 
-.vinho p {
+.wine p {
   margin-top: 5px;
 
   font-style: normal;
@@ -163,7 +167,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.vinho span {
+.wine span {
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -172,11 +176,11 @@ body {
   letter-spacing: 0.02em;
 }
 
-.vinho span strong {
+.wine span strong {
   font-weight: 500;
 }
 
-.content-vinho {
+.content-wine {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -185,7 +189,7 @@ body {
   gap: 15px;
 }
 
-/* Line divider */
+/* Linha de divisão dentro da página de index */
 
 .line-divider-index {
   width: 1008px;
@@ -204,7 +208,7 @@ body {
 
 /* Cadastro de Newsletter */
 
-.title-cadastro {
+.title-register {
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -215,13 +219,13 @@ body {
   margin-bottom: 48px;
 }
 
-#cadastro {
+#register {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#cadastro p {
+#register p {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -232,18 +236,18 @@ body {
   text-align: left;
 }
 
-.nome,
-.telefone,
+.name,
+.phone,
 .email {
   margin-bottom: 8px;
 }
 
 .email,
-.telefone {
+.phone {
   margin-top: 8px;
 }
 
-#cadastro input {
+#register input {
   padding: 11px 7px;
   gap: 10px;
 
@@ -259,7 +263,7 @@ body {
   filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.3));
 }
 
-#cadastro input:focus {
+#register input:focus {
   outline: none;
 }
 
@@ -279,12 +283,12 @@ body {
 }
 
 .send:hover {
-  background: #4956c9;
+  background: #586bf9;
 }
 
-/* Vinhos */
+/* Página de estante de vinhos */
 
-.estante {
+.shelf {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -295,13 +299,13 @@ body {
   gap: 50px;
 }
 
-.linha {
+.row {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.coluna {
+.column {
   width: 280px;
   height: 280px;
   border-radius: 10px;
@@ -313,7 +317,7 @@ body {
   padding: 29px 25px 0 0;
 }
 
-.coluna img {
+.column img {
   width: 100%;
   height: 100%;
   object-fit: cover;
