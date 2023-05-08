@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <!-- Aqui temos a importação de todas as fontes dentro da página -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,6 +18,7 @@
     <title>Vinheira Agnello</title>
   </head>
   <body>
+    <!-- Esse é um header universal para todas as páginas (ela foi padronizada para todas as páginas do site) -->
     <header class="header">
       <div class="navigation">
         <a href="#">Home</a>
@@ -24,9 +26,13 @@
         <a href="/pages/about.html">Sobre Nós</a>
       </div>
     </header>
+    <!-- Essa é main da página, com os conteúdos principais -->
     <main class="main-index">
+      <!-- Esse é o título da aba de vinhos populares -->
       <h1 class="title-index">Vinhos Populares</h1>
+      <!-- Parte da aba de vinhos populares na página de Home -->
       <div class="populars-wines">
+        <!-- Esse é o primeiro vinho, que aparece na página de vinhos populares -->
         <div class="container-index">
           <div class="wine">
             <img src="./image/R.png" alt="wine" class="wine-index" />
@@ -37,6 +43,7 @@
             </div>
           </div>
         </div>
+        <!-- Esse é o segundo vinho, que aparece na página de vinhos populares -->
         <div class="container-index">
           <div class="wine">
             <img
@@ -51,6 +58,7 @@
             </div>
           </div>
         </div>
+        <!-- Esse é o terceiro vinho, que aparece na página de vinhos populares -->
         <div class="container-index">
           <div class="wine">
             <img src="./image/vinho.png" alt="wine" class="wine-index" />
@@ -62,11 +70,15 @@
           </div>
         </div>
       </div>
+      <!-- Essa é a linha de divisão entre a aba de vinhos populares e cadastro do usuário para a newsletter -->
       <div class="line-divider-index"></div>
+      <!-- Essa é a parte de cadastro para newsletter para os usuários -->
       <form id="register">
+        <!-- Título da aba de cadastro para a newsletter -->
         <h2 class="title-register">
           Se quiser novidades sobre a Vinheria, faça o cadastro abaixo:
         </h2>
+        <!-- Inputs de nome, email e telefone -->
         <p class="name">Nome:</p>
         <input
           type="text"
@@ -90,6 +102,7 @@
           id="tel"
           placeholder="Coloque o seu telefone..."
         />
+        <!-- Botão para enviar cadastro de newsletter -->
         <a href="#" class="send">Enviar</a>
       </form>
     </main>
